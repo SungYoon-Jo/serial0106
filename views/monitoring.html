@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="/css/appbar.css" rel="stylesheet" type="text/css" />
+    <link href="/css/monitoring.css" rel="stylesheet" type="text/css" />
+    <title>D.R</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script type="text/javascript" src="/lib/makeqr/jquery.min.js"></script>
+    <script type="text/javascript" src="/lib/makeqr/qrcode.js"></script>
+</head>
+
+<body>
+    <app-bar></app-bar>
+    <!--메뉴바 라인-->
+    <!--nav 라인-->
+    <div class="home_content">
+        <div class="main_content">
+            <div class="header_line">
+                <h2 class="main_title">Capstone Design Report</h2>
+                <div id="clock" class="clock">
+                    <p>00:00:00</p>
+                </div>
+            </div>
+
+            <div class="middle_line">
+                <div class="data_display">
+                    <ul>
+                        <li>온도</li>
+                        <li>습도</li>
+                        <li>조도</li>
+                    </ul>
+                    <ul>
+                        <li id="temperature_status">0.0</li>
+                        <li id="humidity_status">0.0</li>
+                        <li id="water_temperature_status">0.0</li>
+                    </ul>
+                </div>
+
+                <!-- <button class="graph_button">그래프버튼</button>
+                <button class="qr_button"><i class='bx bx-qr'></i></button>
+                <div class="qr_content">
+                    <div class="qr_content_wrap">
+                        <div id="qrcode" style="width:100px; height:100px; margin-top:15px;"></div>
+                    </div>
+                </div>
+                <div class="graph_display" style="display: none;">
+                    <div class="data_graph">
+                        <canvas id="data_chart"></canvas>
+                    </div>
+                    <div class="_blank" style="height: 325px; display: none;"></div>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    </form>
+    <!--웹 워터마크 라인-->
+    <div id="footer">
+
+    </div>
+    </div>
+</body>
+<script src="/views/js/monitoring.js" type="module"></script>
+<script src="/components/appbar.js"></script>
+<script src="/js/appbar.js"></script>
+<script src="/js/viewClock.js"></script>
+<script src="/views/js/makeqr.js"></script>
+
+</html>

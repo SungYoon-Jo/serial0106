@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>AAMS - 로그인</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="login-box">
+        <div class="login-title">
+            Sign in
+        </div>
+        <div class="login-box-wrap">
+            <div class="login-input-wrap">
+                <form method="POST">
+                    <div class="id-form">
+                        <input class="id-space" type="text" name="user_id" id="id" value="" placeholder="I  D" />
+                    </div>
+                    <div class="pw-form">
+                        <input class="pw-space" type="password" name="user_pw" id="pw" value="" placeholder="PW" />
+                    </div>
+                    <input type="hidden" name="loginType" value="admin">
+
+                    <div class="btn">
+                        <input class="login-btn" type="button" value="Log In">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-text">Team @ SEVERMARINE.</div>
+        </div>
+    </div>
+</body>
+<script src="js/login.js"></script>
+
+</html>

@@ -1,0 +1,9 @@
+{ 
+    "host": "219.251.228.214",
+    "port": 3307,
+    "user": "Ky0615",
+    "password": "Ehdtla123!@",
+    "database": "AAMS",
+    "dateStrings": true,
+    "multipleStatements": true
+}

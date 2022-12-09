@@ -1,0 +1,19 @@
+{
+  "name": "aams_send",
+  "version": "2.0.1",
+  "description": "make project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "start npm run main_start && start npm run cam_start",
+    "main_start": "node app.js",
+    "cam_start": "python run_cam/server.py"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "serialport": "^10.4.0",
+    "ws": "^8.8.1"
+  }
+}
